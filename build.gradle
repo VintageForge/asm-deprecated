@@ -32,11 +32,11 @@ apply plugin: 'java'
 
 description = 'ASM deprecated classes'
 group = 'org.ow2.asm'
-version = '7.1'
+version = '7.2'
 
 dependencies {
-  implementation 'org.ow2.asm:asm:7.0'
-  implementation 'org.ow2.asm:asm-commons:7.0'
+  implementation 'org.ow2.asm:asm:7.1'
+  implementation 'org.ow2.asm:asm-commons:7.1'
 }
 
 compileJava.doLast {
