@@ -48,7 +48,7 @@ public class RemappingSignatureAdapter extends SignatureVisitor {
 
   public RemappingSignatureAdapter(
       final SignatureVisitor signatureVisitor, final Remapper remapper) {
-    this(Opcodes.ASM6, signatureVisitor, remapper);
+    this(Opcodes.ASM9, signatureVisitor, remapper);
   }
 
   protected RemappingSignatureAdapter(
