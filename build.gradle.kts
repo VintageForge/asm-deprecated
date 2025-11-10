@@ -35,7 +35,7 @@ repositories { mavenCentral() }
 
 description = "ASM deprecated classes"
 group = "org.ow2.asm"
-version = "9.8"
+version = "9.9"
 
 dependencies {
     implementation("org.ow2.asm:asm:$version")
@@ -68,7 +68,7 @@ java {
 publishing {
     repositories {
         maven {
-            name = "VintageForge"
+            name = "vintageforge"
             url = uri("https://repo.rafi67000.xyz/vintageforge")
             credentials(PasswordCredentials::class)
             authentication {
